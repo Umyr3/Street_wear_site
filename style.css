@@ -17,7 +17,7 @@ body {
     background-color: var(--cinza-claro);
     color: var(--cinza-escuro);
     line-height: 1.6;
-    padding-top: 80px; /* Espaço para o header fixo */
+    padding-top: 80px; 
 }
 
 .container {
@@ -93,11 +93,10 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-/* ===== HERO SECTION ===== */
 .hero {
     height: 70vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                url('../images/hero-bg.jpg') no-repeat center center;
+                url('/imagens/AdobeStock_991994718.jpeg') no-repeat center center;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -142,7 +141,6 @@ nav ul li a:hover::after {
     background-color: #cc0000;
 }
 
-/* ===== PÁGINA INICIAL ===== */
 .section-title {
     text-align: center;
     font-size: 2rem;
