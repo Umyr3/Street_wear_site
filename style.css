@@ -17,7 +17,7 @@ body {
     background-color: var(--cinza-claro);
     color: var(--cinza-escuro);
     line-height: 1.6;
-    padding-top: 80px; /* Espaço para o header fixo */;
+    padding-top: 80px;
 }
 
 .container {
@@ -27,7 +27,6 @@ body {
     padding: 0 15px;
 }
 
-/* ===== HEADER ===== */
 header {
     background-color: var(--preto);
     color: var(--branco);
@@ -93,11 +92,10 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-/* ===== HERO SECTION ===== */
 .hero {
     height: 70vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                url('../images/hero-bg.jpg') no-repeat center center;
+                url('/imagens/imagem1.jpeg') no-repeat center center;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -142,7 +140,6 @@ nav ul li a:hover::after {
     background-color: #cc0000;
 }
 
-/* ===== PÁGINA INICIAL ===== */
 .section-title {
     text-align: center;
     font-size: 2rem;
@@ -196,7 +193,6 @@ nav ul li a:hover::after {
     text-transform: uppercase;
 }
 
-/* ===== PÁGINA LOJA ===== */
 .products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -256,7 +252,6 @@ nav ul li a:hover::after {
     background-color: #333;
 }
 
-/* ===== PÁGINA SOBRE ===== */
 .about-content {
     max-width: 800px;
     margin: 0 auto 4rem;
@@ -283,7 +278,6 @@ nav ul li a:hover::after {
     margin-bottom: 0.5rem;
 }
 
-/* ===== PÁGINA BLOG ===== */
 .blog-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -336,7 +330,6 @@ nav ul li a:hover::after {
     text-decoration: underline;
 }
 
-/* ===== PÁGINA CARRINHO ===== */
 .cart-container {
     display: flex;
     flex-wrap: wrap;
@@ -417,7 +410,6 @@ nav ul li a:hover::after {
     margin-top: 1rem;
 }
 
-/* ===== PÁGINA CONTATO ===== */
 .contact-form {
     max-width: 600px;
     margin: 0 auto 4rem;
@@ -455,7 +447,6 @@ nav ul li a:hover::after {
     padding: 1rem;
 }
 
-/* ===== FOOTER ===== */
 footer {
     background-color: var(--preto);
     color: var(--branco);
@@ -519,7 +510,6 @@ footer {
     border-top: 1px solid #444;
 }
 
-/* ===== RESPONSIVIDADE ===== */
 @media (max-width: 768px) {
     .header-container {
         flex-direction: column;
