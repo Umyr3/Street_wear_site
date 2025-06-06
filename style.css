@@ -17,7 +17,7 @@ body {
     background-color: var(--cinza-claro);
     color: var(--cinza-escuro);
     line-height: 1.6;
-    padding-top: 80px; /* Espaço para o header fixo */
+    padding-top: 80px; /* Espaço para o header fixo */;
 }
 
 .container {
